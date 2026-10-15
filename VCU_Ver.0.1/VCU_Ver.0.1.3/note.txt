@@ -1,0 +1,1 @@
+27/07/2026 - digital output implementation according VCU module prototype like blinking, etc.

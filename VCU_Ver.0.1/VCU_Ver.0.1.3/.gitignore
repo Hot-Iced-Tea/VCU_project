@@ -1,0 +1,10 @@
+.settings/
+VCU_Ver.0.1.3 Debug.launch
+/Debug/
+/Release/
+/*.elf
+/*.hex
+/*.bin
+/*.map
+
+.metadata/

@@ -1,0 +1,51 @@
+CAN ID LIST THAT FORWARDED TO CLOUD
+ _______________________________________________________________________________________
+|			|								|
+|	CAN ID		|			Data Detail				|
+|_______________________|_______________________________________________________________|
+| - VCU Data										|
+|_______________________________________________________________________________________|
+| 0x1800FCA1		| - Vehicle states						|
+|			| - Vahicle fault						|
+| 0x1801FCA1		| Device working status						|
+| 0x1808FCA1		| Vehicle position						|
+|_______________________|_______________________________________________________________|
+| - BMS Data										|
+|_______________________________________________________________________________________|
+| 0x180950F4		| - max/min cell voltage					|
+|			| - max/min cell position					|
+| 0x180A50F4		| BMS temperature						|
+| 0x180B50F4		| Battery pack status						|
+| 0x180C50F4		| - Design/remain capacity					|
+|			| - Fault code							|
+| 0x180D50F4		| Serial Number							|
+| 0x180E50F4		| Serial Number							|
+| 0x180F50F4		| Firmware version						|
+| 0x181050F4		| - Derating discharge voltage					|
+| 			| - Derating discharge current					|
+|			| - Derating temperature					|
+|			| - State of Charge						|
+| 0x181150F4		| - under/over voltage						|
+|			| - dcg over current						|
+|			| - dcg/chg MOSFET						|
+|_______________________|_______________________________________________________________|
+| - Motor driver/MCU									|
+|_______________________________________________________________________________________| 
+| 0x1802F7EF		| - controller/motor temperature				|
+|			| - Fault code							|
+| 0x1803F7EF		| Serial Number (0 - 8)						|
+| 0x1804F7EF		| Serial Number (9 - 15)					|
+| 0x1805F7EF		| - Serial Number (16 -19)					|
+|			| - Firmware Version						|
+| 0x1806F7EF		| - Under/over voltage protect					|
+|			| - current limit						|
+|			| - regent charge current set.					|
+|_______________________|_______________________________________________________________|
+| - Charger										|
+|_______________________________________________________________________________________|
+| 0x18FF50E5		| - Output voltage						|
+| 			| - Output current						|
+|			| - charger status						|
+|			| - charger temperature						|
+|			| - fault							|
+|_______________________|_______________________________________________________________|
